@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display&family=Vampiro+One&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--https://fontawesome.com/-->
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+</head>
+
+<body>
+  <header>
+    <div class="social-icons">
+      <a class="facebook" href="#"> <img src="imagiz/facebook.svg" alt=" "> </a>
+      <a class="twitter" href="#"> <img src="imagiz/twitter.svg" alt=" "> </a>
+      <a class="instagram" href="#"> <img src="imagiz/insta.svg" alt=" "> </a>
+      <a class="pinterest" href="#"> <img src="imagiz/pinterest.svg" alt=" "> </a>
+    </div>
+    <div class="image-logo"><a href="#">Creative</a></div>
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+  </header>
+  <!--************************* NAV MENU ****************$-->
+
+  <div class="nav">
+    <ul>
+      <li><a href="home" class="nav-links">Home</a></li>
+      <li><a href="articles" class="nav-links">Articles</a></li>
+      <li><a href="Contact" class="nav-links">Contact</a></li>
+      <li><a href="about" class="nav-links">About</a></li>
+    </ul>
+  </div>
+  <hr>
+  <!--*****************   SLIDER    **************$-->
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 /4</div>
+      <img class="fading-image" src="imagiz/lady-in-glasses.jpg" ">
+
+      <div class=" green-cercle">
+    </div>
+
+    <div class="category">Category</div>
+    <div>
+      <h2>Titre de l'article qui peut être super long </h2>
+      <p>Ce bout<span id="poits">...</span><span id="more">de texte devrait être cachee.Il devrait être declenché par un
+          click sur le
+          bouton "Read More"
+          click.Thank you and keep watching, like my SASS.</span>
+      </p>
+    </div>
+    <img class="author-JohnDoe" src="imagiz/photo-john Doe.jpeg">
+    <div class="name"> John Doe </div>
+    <div class="losange-slide"></div>
+    <div class="date"> 23 Août 2020</div>
+    <button class="lire-suite" onclick="readMore()">Read More</button>
+
+  </div>
+
+  </div>
+  <!--*****************   SLIDER    **************$-->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"> 2/4</div>
+      <img class="fading-image" src="imagiz/lady-in-blue.jpeg" style="width:100%">
+      <div class="green-cercle"></div>
+      <div class="category">Category</div>
+      <h2>Titre de l'article qui peut aussi être long </h2>
+      <img class="author-sara" src="imagiz/lady-in-brown.jpeg">
+      <div class="name"> John Doe </div>
+      <div class="losange-slide"></div>
+      <div class="date"> 23 Août 2020</div>
+      <button class="lire-suite" onclick="myFunction()">Lire la suite</button>
+
+    </div>
+
+  </div>
+  <!--*****************   SLIDER    **************$-->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 /4</div>
+      <img class="fading-image" src="imagiz/lady-in-brown.jpeg" style="width:100%">
+      <div class="green-cercle"></div>
+      <div class="category">Category</div>
+      <h2>Titre de l'article qui peut aussi être long </h2>
+
+      <img class="author-JohnDoe" src="imagiz/photo-john Doe.jpeg">
+      <div class="name"> John Doe </div>
+      <div class="losange-slide"></div>
+      <div class="date"> 23 Août 2020</div>
+      <button class="lire-suite" onclick="myFunction()">Lire la suite</button>
+
+    </div>
+
+  </div>
+  <!--*****************   SLIDER    **************$-->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 /4</div>
+      <img class="fading-image" src="imagiz/lady-in-glasses.jpg">
+      <div class="green-cercle"></div>
+      <div class="category">Category</div>
+      <h2>Titre de l'article qui peut aussi être long </h2>
+      <img class="author-sara" src="imagiz/lady-in-brown.jpeg">
+      <div class="name"> John Doe </div>
+      <div class="losange-slide"></div>
+      <div class="date"> 23 Août 2020</div>
+      <button class="lire-suite" onclick="myFunction()">Lire la suite</button>
+
+    </div>
+
+  </div>
+  <!--*****************   FADING BUTTONS    **************$-->
+
+  <br>
+  <br>
+
+  <div class="dots" style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+
+  </div>
+  <!--***********ARTICLES**************-->
+  <div class="articles-container">
+    <div class="left-art-container">
+      <div class="block-art1">
+        <div class="brown-photo"></div>
+        <div class="flex-categorize">
+          <div class="green-cer"></div>
+          <div class="categorize">Category </div>
+        </div>
+        <div class="item2">
+          <h4>Titre de l'article</h4>
+        </div>
+        <div class="art-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rem, hic placeat atque blanditiis sapiente
+            maiores! Cum ad ducimus, eius facere alias sapiente, praesentium enim facilis iusto, consequuntur ratione
+            modi?
+          </p>
+        </div>
+        <div class="flex-author">
+          <img src="imagiz/photo-john Doe.jpeg" alt="">
+          <div class="namee">John Doe</div>
+          <div class="losange"> </div>
+          <div class="datee">23 Août 2020</div>
+        </div>
+        <a href="#" class="btn">Lire la suite</a>
+      </div>
+      <!--********************************************************$-->
+      <div class="block-art1">
+        <div class="cross-photo"></div>
+        <div class="flex-categorize">
+          <div class="green-cer"></div>
+          <div class="categorize">Category </div>
+        </div>
+        <div class="item2">
+          <h4>Titre de l'article</h4>
+        </div>
+        <div class="art-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rem, hic placeat atque blanditiis sapiente
+            maiores! Cum ad ducimus, eius facere alias sapiente, praesentium enim facilis iusto, consequuntur ratione
+            modi?
+          </p>
+        </div>
+        <div class="flex-author">
+          <img src="imagiz/photo-john Doe.jpeg" alt="">
+          <div class="namee">John Doe</div>
+          <div class="losange"> </div>
+          <div class="datee">23 Août 2020</div>
+        </div>
+        <a href="#" class="btn">Lire la suite</a>
+      </div>
+      <!--********************************************************-->
+
+      <div class="block-art1">
+        <div class="toy-photo"></div>
+        <div class="flex-categorize">
+          <div class="green-cer"></div>
+          <div class="categorize">Category </div>
+        </div>
+        <div class="item2">
+          <h4>Titre de l'article</h4>
+        </div>
+        <div class="art-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rem, hic placeat atque blanditiis sapiente
+            maiores! Cum ad ducimus, eius facere alias sapiente, praesentium enim facilis iusto, consequuntur ratione
+            modi?
+          </p>
+        </div>
+        <div class="flex-author">
+          <img src="imagiz/photo-john Doe.jpeg" alt="">
+          <div class="namee">John Doe</div>
+          <div class="losange"> </div>
+          <div class="datee">23 Août 2020</div>
+        </div>
+        <a href="#" class="btn">Lire la suite</a>
+      </div>
+      <!--********************************************************$-->
+
+      <div class="block-art1">
+        <div class="cat-photo"></div>
+        <div class="flex-categorize">
+          <div class="green-cer"></div>
+          <div class="categorize">Category </div>
+        </div>
+        <div class="item2">
+          <h4>Titre de l'article</h4>
+        </div>
+        <div class="art-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rem, hic placeat atque blanditiis sapiente
+            maiores! Cum ad ducimus, eius facere alias sapiente, praesentium enim facilis iusto, consequuntur ratione
+            modi?
+          </p>
+        </div>
+        <div class="flex-author">
+          <img src="imagiz/photo-john Doe.jpeg" alt="">
+          <div class="namee">John Doe</div>
+          <div class="losange"> </div>
+          <div class="datee">23 Août 2020</div>
+        </div>
+        <a href="#" class="btn">Lire la suite</a>
+      </div>
+    </div>
+
+    <!--*********************************** SIDEBAR   ************************ -->
+
+    <div class="right-art-container">
+      <!--Recent Posts-->
+
+      <div class="row">
+        <div class="column1">
+          <h4>Recent Posts</h4>
+        </div>
+        <div class="column2"></div>
+      </div>
+
+
+      <div class="troisPosts">
+        <div class="post">
+          <img src="./imagiz/lady-in-blue.jpeg" alt="">
+          <div class="post-description">
+            <p>Titre de l'arcticle qui peut être aussi long</p>
+            <div class="losangee"> </div>
+            <div class="datee">23 Août 2020</div>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./imagiz/lady-in-brown.jpeg" alt="">
+          <div class="post-description">
+            <p>Titre de l'arcticle qui peut être aussi long</p>
+            <div class="losange"> </div>
+            <div class="datee">23 Août 2020</div>
+          </div>
+        </div>
+        <div class="post">
+          <img src="./imagiz/woman-in-orange.jpeg" alt="">
+          <div class="post-description">
+            <p>Titre de l'arcticle qui peut être aussi long</p>
+            <div class="losange"> </div>
+            <div class="datee">23 Août 2020</div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- ********************** SOCIAL PROFILES  ********************************-->
+      <div class="socialprofBtn">
+        <a href="#">Twitter<img src="imagiz/twitter.svg"></a>
+        <a href="#">Twitter<img src="imagiz/facebook.svg"></a>
+        <a href="#">Twitter<img src="imagiz/insta.svg"></a>
+      </div>
+      <!--*********************Cateories*********-->
+      <div class="categoriz">
+
+        <div class="row">
+          <div class="column1">
+            <h4>Categories</h4>
+          </div>
+          <div class="column2"></div>
+        </div>
+
+      </div>
+      <!--categorie-line 1  -->
+      <div class="threeCatLines">
+        <div class="cat-line1">
+          <div class="flex-categorize">
+            <div class="green-cer"></div>
+            <div class="categorize">Category </div>
+          </div>
+          <div class="flex-categorize">
+            <div class="green-cer"></div>
+            <div class="categorize">Category </div>
+          </div>
+          <div class="flex-categorize">
+            <div class="green-cer"></div>
+            <div class="categorize">Category </div>
+          </div>
+        </div>
+        <!--categorie-line 2 -->
+        <div class="catLine2">
+          <div class="flex-categorize">
+            <div class="green-cer"></div>
+            <div class="categorize">Category </div>
+          </div>
+          <div class="flex-categorize">
+            <div class="green-cer"></div>
+            <div class="categorize">Category </div>
+          </div>
+          <div class="flex-categorize">
+            <div class="green-cer"></div>
+            <div class="categorize">Category </div>
+          </div>
+        </div>
+        <!--categorie-line 3 -->
+        <div class="catLine3">
+          <div class="flex-categorize">
+            <div class="green-cer"></div>
+            <div class="categorize">Category </div>
+          </div>
+          <div class="flex-categorize">
+            <div class="green-cer"></div>
+            <div class="categorize">Category </div>
+          </div>
+          <div class="flex-categorize">
+            <div class="green-cer"></div>
+            <div class="categorize">Category </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--*********************  ADVERTIZING         ************************ -->
+      <div class="row">
+        <div class="column1">
+          <h4>Advertizing</h4>
+        </div>
+        <div class="column2"></div>
+      </div>
+      <img class="advert-img" src="imagiz/photo-coming-ur-way.jpeg">
+    </div>
+
+
+
+
+  </div>
+  <!--*********** DIV  FOOTER  **************-->
+  </div>
+
+  <!--my footer code-->
+  <footer>
+    <div class="flex-logoNav">
+      <div class="image-logo"><a href="#">Creative</a></div>
+      <div class="nav">
+        <ul>
+          <li><a href="home" class="nav-links">Home</a></li>
+          <li><a href="articles" class="nav-links">Articles</a></li>
+          <li><a href="Contact" class="nav-links">Contact</a></li>
+          <li><a href="about" class="nav-links">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column1">
+        <h4>Follow Us!</h4>
+      </div>
+      <div class="column2"></div>
+    </div>
+    <div class="follow-subscr-mail">
+      <div class="soc-media">
+        <ul>
+          <li> <a href="#" class="fa fa-twitter">Twitter</a></li>
+          <li><a href="#" class="fa fa-facebook">Facebook</a></li>
+          <li><a href="#" class="fa fa-pinterest">fa-pinterest</a></li>
+          <li> <a href="#" class="fa fa-instagram">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="subscribe">
+        <h4>Subscribe to our newsletter</h4>
+        <hr>
+        <p>Get the latest posts directly to your e-mail and stay up to date</p>
+      </div>
+      <div class="mail">
+        <a href="#">Enter your e-mail</a>
+        <div class="arrow-up"></div>
+      </div>
+      <hr>
+
+    </div>
+    <div class="copyright">
+      <p>Created <i class=""></i>Made in Figma></p>
+      <div class="back-to-top-btn"><i class=""></i></div>
+    </div>
+
+  </footer>
+
+</body>
+
+<script src="./JS/script.js"></script>
+
+</html>

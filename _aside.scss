@@ -1,0 +1,84 @@
+
+
+
+  .right-art-container{
+
+    max-width:value(width-sidebar);
+
+    // margin:auto;
+  }
+
+/* ******** Titles with half red line */
+.row {
+  display: flex;
+  margin:10px 0;
+
+}
+
+.column1, .column2 {
+  flex: 50%;
+  margin-bottom:15px;
+}
+.column2{
+border-top:2px solid red;
+margin-top:10px;
+
+}
+
+
+.troisPosts {
+  width:100%;
+  margin-bottom:2rem;
+}
+.post{
+  width:100%;
+  margin-bottom: .5rem;
+  display:flex;
+  img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+  }
+}
+.post-description{
+  p{
+    font-size:.8rem;
+    font-family: font(title);
+    color:color(title);
+  }
+}
+
+.datee{
+  padding-left:1rem;
+  font-size:0.6rem;
+  color:color(text);
+  font-family:font(text);
+
+}
+
+/* ******** Social media links */
+.socialprofBtn img{
+  width:40%;
+
+}
+.tiwitterBtn{
+  background: icons(twitter);
+}
+.instagramBtn{
+  background:icons(instagram);
+}
+.facebookBtn{
+  background:icons(facebook);
+}
+/* ******** Three line categories */
+.threeCatLines{
+  display:flex;
+  flex-direction:row;
+}
+
+.advert{
+  &-img{
+    max-width: 332px;
+  }
+
+}

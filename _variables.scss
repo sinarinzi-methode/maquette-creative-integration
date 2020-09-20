@@ -1,0 +1,34 @@
+$colors: (
+  background-main:#33264E,
+  background-article:#362953,
+  background-footer:#362953,
+  title:#fff,
+  main-btn:#ee3e52,
+  btn-background:linear-gradient(#ff6070, #ff7e8e),
+  logo:#ebebeb,
+  nav:#dadada,
+  text:rgb(245,245,245),
+  half-line:#d62900,
+);
+
+$icons: (
+  twitter: #63cdf1,
+  facebook:#507dbe,
+  instagram: #d62976,
+  pinterest: #ee3e52,
+
+);
+
+$fonts:(
+  logo: #{"Vampiro One", cursive},
+  title:#{"Playfair Display", cursive},
+  text:#{"Mulish"},
+);
+
+$values:(
+  width-container:1200px ,
+  width-article:800px ,
+  width-slideshow:1600px ,
+  height-slideshow:480px,
+  width-sidebar:332px,
+)

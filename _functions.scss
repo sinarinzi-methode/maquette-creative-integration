@@ -1,0 +1,13 @@
+@function color($color-name){
+  @return map-get($colors,$color-name)
+};
+@function font($plop){
+  @return map-get($fonts,$plop)
+};
+@function color-icon($color-icon){
+  @return map-get($icons-color, $color-icon)
+};
+@function value($value-name){
+  @return map-get($values,$value-name)
+};
+

@@ -1,0 +1,162 @@
+
+.articles-container{
+  display:flex;
+  max-width:value(width-container);
+  margin:0 auto;
+  margin-top:3rem;
+  background:color(background-article)
+}
+.left-art-container{
+max-width: value(width-article);
+margin-right:20px;
+
+}
+.block-art1 {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: auto auto;
+  grid-gap: 3px;
+  margin-left: 10%;
+  padding: 5px;
+  max-width: 800px;
+  min-height: 300px;
+  background:color(background-article);
+
+
+margin-bottom: 2rem;
+  position: relative;
+
+
+}
+
+.block-art1>div {
+
+  text-align: start;
+  padding: 5px;
+  font-size: 14px;
+  min-width: 320px;
+  margin-bottom: 5px;
+
+}
+
+.brown-photo, .cross-photo, .toy-photo, .cat-photo {
+  grid-row: 1/6;
+  background-size: cover;
+}
+.brown-photo{
+  background-image: url("../imagiz/lady-in-brown.jpeg");
+
+
+}
+.cross-photo{
+background-image: url("../imagiz/photo-cross.jpeg");
+
+}
+
+.toy-photo{
+  background-image: url("../imagiz/photo-lady-with-toy.jpeg");
+}
+.cat-photo{
+  background-image: url("../imagiz/photo-cat.jpeg")
+}
+
+
+  .flex-categorize{
+    display:flex;
+  flex-direction: row;
+  text-align:center;
+height: 24px;
+margin:0;
+box-sizing:border-box;
+   /*  background-color: aqua; */
+.green-cer{
+  width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      background-color: green;
+}
+.categorize{
+  padding: 0 1rem;
+font-size:0.8rem;
+color:color("text");
+font-family:font("text");
+}
+}
+h4{
+  font-size:1rem;
+  font-weight:200;
+  text-align:left;
+  color:color(text);
+}
+.title-art{
+ background-color: gray;
+}
+.item3 {
+  background-color: coral;
+}
+.art-content>p{
+  color:color(text);
+}
+.flex-author {
+  display:flex;
+  flex-direction: row;
+  text-align:center;
+    img{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    display:inline-block;
+    ;
+  }
+    .namee{
+      padding: 0 1rem;
+    font-size:0.8rem;
+    color:color("text");
+    font-family:font("text");
+  }
+  .losange{
+    height: 10px;
+      width: 10px;
+      left: 50%;
+      bottom: 35%;
+      background-color: purple;
+      -ms-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      padding-left:10px;
+  }
+  .datee{
+    padding-left:1rem;
+    font-size:0.8rem;
+    color:color(text);
+    font-family:font(text);
+  }
+
+}
+.btn {
+background-color: #EE3E52;
+padding: .5rem 3rem;
+color: color(text);
+position: absolute;
+/* take reference to broser? */
+left: 26rem;
+bottom: -1rem;
+
+
+
+
+}
+
+
+.losange{
+  height: 10px;
+    width: 10px;
+    left: 50%;
+    bottom: 35%;
+    background-color: purple;
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    padding-left:10px;
+}
+/*  ************  FIN ARTICLES ********** */
